@@ -1,0 +1,190 @@
+.loginPage {
+  background-image: url(../../assets//images/newsletter-bg.png);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.welcome {
+  text-align: center;
+  font-size: 50px;
+padding: 40px 0px;
+
+}
+.total-Box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+
+ 
+}
+.rightSide {
+  background-color: #f3f7fa;
+  padding: 40px;
+  border: 1px solid #1dc5ce;
+  box-shadow: rgba(49, 51, 54, 0.2) 0px 8px 24px;
+  // height: 500px;
+  
+  
+
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-size: 16px;
+    color: black;
+    gap: 10px;
+  
+  
+
+    input {
+      width: 400px;
+      font-size: 16px;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid gray;
+     
+    }
+    
+  }
+}
+.loginBtn {
+  padding: 10px 25px;
+  font-size: 16px;
+  border-radius: 10px;
+  background-color:#1dc5ce;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.leftSide {
+
+  img {
+height: 500px;
+  
+
+
+  }
+}
+.returnHome{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  
+    color: #1dc5ce;
+    p{
+      color: black;
+      font-weight: 500;
+    }
+  
+}
+@media only screen and (max-width: 1300px) {
+.loginPage{
+  .loginBox{
+    .total-Box{
+      .rightSide{
+        form{
+          input{
+            max-width: 260px;
+          }
+          .loginBtn {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 10px;
+            background-color: #1b1a1c;
+            color: white;
+            border: none;
+            cursor: pointer;
+          }
+        }
+      }
+      .leftSide {
+
+        img {
+      height: 500px;
+      width: 400px;
+        
+      
+      
+        }
+      }
+    }
+  }
+
+}
+}
+@media only screen and (max-width: 950px){
+  .loginPage{
+    .loginBox{
+      .total-Box{
+        .rightSide{
+          form{
+            
+            .loginBtn {
+              padding: 10px;
+              font-size: 16px;
+              border-radius: 10px;
+              background-color: #1b1a1c;
+              color: white;
+              border: none;
+              cursor: pointer;
+            }
+          }
+        }
+        .leftSide {
+  
+          img {
+        display: none;
+          
+        
+        
+          }
+        }
+      }
+    }
+  
+  }
+}
+@media only screen and (max-width: 598px){
+  .loginPage{
+    .loginBox{
+      .total-Box{
+        .rightSide{
+          width: 300px;
+          form{
+            input{
+              width: 200px;
+            }
+            
+            .loginBtn {
+              padding: 10px;
+              font-size: 16px;
+              border-radius: 10px;
+              background-color: #1b1a1c;
+              color: white;
+              border: none;
+              cursor: pointer;
+            }
+          }
+        }
+        .leftSide {
+  
+          img {
+        display: none;
+          
+        
+        
+          }
+        }
+      }
+    }
+  
+  }
+}

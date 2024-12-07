@@ -1,0 +1,135 @@
+.trekkingsPage{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.trekkingsPageCart {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    padding: 0px 30px 0px 27px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    background-color: #f3f7fa ;
+  
+    height: 650px;
+  
+    img {
+      width: 300px;
+      height: 280px;
+      border-radius: 10px;
+    }
+    .title {
+      font-size: 25px;
+      max-width: 300px;
+      font-weight: 600;
+      height: 70px;
+    }
+    .starts {
+      font-size: 23px;
+      padding: 15px 0px;
+      color: rgb(229, 179, 27);
+      height: 50px;
+    }
+    .desc {
+      font-size: 14px;
+      height: 100px;
+    }
+    .hr {
+      border: 1px dashed rgb(179, 175, 175);
+      margin-top: 30px;
+      
+    }
+  }
+  .details {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 20px;
+    width: fit-content;
+    font-size: 14px;
+    
+  }
+  .details:hover {
+    color: #1dc5ce;
+    transition: 0.2s;
+  }
+  .price {
+    position: relative;
+    background-color: #1dc5ce;
+    max-width: 80px;
+    position: relative;
+    top: 50px;
+    color: white;
+    text-align: center;
+    left: 17px;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 25px;
+  }
+  .head-Trekking{
+   padding: 50px 0px;
+   text-align: center;
+   max-width: 900px;
+   margin: auto;
+   h1{
+    font-size: 50px;
+    padding: 10px 0px;
+    font-weight: 800;
+
+   }
+   .forFilter{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+    gap: 10px;
+   
+  
+   button{
+    padding: 13px 18px;
+    background-color:#1dc5ce;
+    border: none;
+    font-size: 17px;
+    border-radius: 25px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+   }
+   }
+  }
+ .heading-aboutTrekking{
+  font-size: 30px;
+  text-align: center;
+  padding: 50px 0px;
+ }
+
+ .aboutTrekking{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  flex-wrap: wrap;
+ }   
+ .image-trekking{
+  position: relative;
+  animation: moveUpDownTrekking 4s infinite;
+ 
+}
+@keyframes moveUpDownTrekking {
+  0% {
+      top: -10px;
+  }
+  50% {
+      top: 40px;
+  }
+  100% {
+      top: -10px;
+
+      
+  }
+}
